@@ -1,0 +1,74 @@
+
+
+.intern-dashboard {
+  max-width: 95%;
+  margin: auto;
+  padding: 35px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.header h2 {
+  font-size: 35px;
+  color: #007bff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  outline: none;
+}
+
+.actions button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.intern-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+  transition: all 1s ease-in-out;
+}
+
+.intern-card:last-child {
+  margin-bottom: 0px;
+}
+
+.intern-card:hover {
+  background: #007bff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.intern-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.intern-info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
